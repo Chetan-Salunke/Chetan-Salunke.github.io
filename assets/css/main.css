@@ -697,6 +697,11 @@ input, select, textarea {
 
 			.image.main img {
 				width: 100%;
+				object-fit: contain;
+			}
+			.image.main.che img {
+				width: 100%;
+				object-fit: cover;
 			}
 
 		@media screen and (max-width: 736px) {
@@ -1306,8 +1311,15 @@ input, select, textarea {
 		.cropped3 {
 				width: auto;
 				height: 12rem; /* height of container */
+				object-fit: contain;
+				object-position: 50% 52%;/* try 20px 10px*/ 
+				
+			}
+			.cropped32 {
+				width: auto;
+				height: 12rem; /* height of container */
 				object-fit: cover;
-				object-position: 50% 52%; /* try 20px 10px */ 
+				object-position: 50% 52%;/* try 20px 10px*/ 
 				
 			}
 		.cropped4 {
