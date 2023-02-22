@@ -651,7 +651,7 @@ input, select, textarea {
 			opacity: 0.5;
 			position: absolute;
 			top: 0;
-			width: 100%;
+			/* width: 100%; */
 		}
 
 		.image img {
@@ -1310,14 +1310,14 @@ input, select, textarea {
 			}
 		.cropped3 {
 				width: auto;
-				height: 12rem; /* height of container */
+				height: 14rem; /* height of container */
 				object-fit: contain;
 				object-position: 50% 52%;/* try 20px 10px*/ 
 				
 			}
 			.cropped32 {
 				width: auto;
-				height: 12rem; /* height of container */
+				height: 18rem; /* height of container */
 				object-fit: cover;
 				object-position: 50% 52%;/* try 20px 10px*/ 
 				
